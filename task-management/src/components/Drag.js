@@ -1,6 +1,5 @@
 import Draggable from "react-draggable";
-import { useContext, useState } from "react";
-import PositionContext from "../context/PositionContext";
+import { useState } from "react";
 
 function Drag({ children, getPosition }) {
   const initPosition = {
